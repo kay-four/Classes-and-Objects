@@ -13,7 +13,7 @@ class Student:
         
 
     def change_age(self,age):
-        self.age = age
+        self.age = int(age)
         
 
     def add_track(self,tracks):
